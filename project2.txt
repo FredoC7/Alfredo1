@@ -1,0 +1,69 @@
+ALFREDO E CUEVAS
+Orlando, FL 32828 ? 402-333-333 ? alfredoecuevas@mail.com ?
+EDUCATION
+University of Central Florida                                                                                             Orlando, FL
+Bachelor of Science in Computer Sciences                                                                              May 2027
+*	Award of Excellence (2025)
+      Recognized for outstanding academic achievement as a first-generation student.
+Valencia College                                                                                                                  Orlando, FL
+Associate in Arts                                                                                                                      April 2024
+SKILLS
+Language: Fluent in English and Spanish
+Computer: Experience with C, Java, Python, HTML, CSS, JavaScript, and ROS. Proficiency in 
+Microsoft Office (Word, Excel, and PowerPoint).                                                                                                                       
+PROJECTS
+Project S.T.O.R.M                                                              Robotics Club of Central Florida - Current
+*	Collaborate with a multidisciplinary team to design and program systems for the University 
+Rover Challenge.
+*	Write code in ROS and contribute technical knowledge to support task solutions
+*	Support team collaboration with technical insights
+Student Database System - Cknight Academy                                                   Intro to C, Fall 2024
+*	Developed an I/O-based file database to store and search student records.
+*	Applied structured file handling and data storage techniques in C.
+*	Strengthened skills in file I/O, data structures, and algorithm implementation.
+Personal Website                                                                                                                     Fall 2024    
+*	Built a personal website to show profile, education, projects, and community involvement.
+*	Design a layout with custom styling using CSS and JavaScript
+*	Integrated a footer section with contact information to facilitate professional outreach.
+PROFESSIONAL EXPERIENCE
+Texas Roadhouse, Inc.                                                                                                        Orlando, FL
+Server, trainer                                                                                                        January 2023-Present
+*	Efficiently multitask while maintaining attention to detail in a fast-paced environment.
+*	Cooperate with a diverse team to improve workflow efficiency during peak hours.
+*	Train new employees in order accuracy, table service, and upselling techniques.
+Samaritan's Purse                                                                                                                    Seasonal
+Disaster Relief Volunteer                                                                                                    2019-Present          
+*	Assist homeowners affected by natural disasters (hurricanes, tornadoes, storms, etc.) 
+*	Help with content recovery, debris cleanup, roof tarping, and tree work.
+Alfredo E Cuevas
+Orlando FL, 3333 | 402-888-8888 | alfredoecuevas@email.com
+June 6, 2025
+Katy Bashar
+Resilience, INC
+123 Street
+Orlando, FL 2222
+
+Dear Mrs. Bashar,
+I would like to express my interest in the Software Development intern position at 
+Resilience, INC. I found this open position through Handshake. And I am excited to be part 
+of such an amazing organization that helps improve the mental health of students. 
+As a Computer Science student at the University of Central Florida, I have developed an 
+understanding of programming in multiple languages, including Java, C, and Python. I also 
+built projects in HTML, CSS, and JavaScript, which gave me the experience of supporting 
+your software team. Additionally, as an active member of the RCCF, I have learned to 
+collaborate with individuals from diverse backgrounds and academic disciplines, which is 
+beneficial for any team to succeed, including yours. 
+Given your company's mission to support students' mental health. I am passionate about 
+helping others. During my time as a volunteer with Samaritan's Purse, I noticed how my 
+hands and hard work helped other people to recover from such devastating events.
+Whit that being said, I would like to express my deepest interest in this open position, 
+where not only I will be applying what I have learned in the classroom, but also contributing 
+with my knowledge and skills to continue helping students with their mental health. I have 
+attached my resume for review, and I would greatly appreciate the opportunity for an 
+interview to further discuss how my background aligns with the goals of your organization. 
+Thank you for your time. This is my phone number 402-333-3333, and email 
+alfredoecuevas@email.com, I look forward to hearing from you. 
+
+Sincerely,
+
+Alfredo Cuevas

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <title>Alfredo Cuevas Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b91c8b6dac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1> <span>A</span>LFREDO</h1>
+                </div>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+
+                    <div class="dropdown">
+                        <li><a class="dropBtn" href="#about">About</a></li>
+                        <div class="drop-content">
+                            <a  onclick="opentab('skills')" href="#skills">Skills</a>
+                            <a   onclick="opentab('course')" href="#course">Courses</a>
+                            <a onclick="opentab('experience')" href="#experience">Job Experience</a>
+                        </div>
+                    </div>
+                     <div class="dropdown">
+                        <li><a class="dropBtn" href="#Education">Education</a></li>
+                        <div class="drop-content">
+                            <a href="#Education">UCF</a>
+                            <a href="#Education">VC</a>
+                            <a href="#Education">FPC</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <li><a class="dropBtn" href="#projects">Projects</a></li>
+                        <div class="drop-content">
+                            <a href="#projects">Project 1</a>
+                            <a href="#projects">Project 2</a>
+                            <a href="#projects">Project 3</a>
+                        </div>
+                    </div>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="row">
+                
+            <div class="header-text">
+              
+                <h1>Hi, I am <span> Alfredo</span><br>Welcome to my Website</h1>
+            </div>
+            <div class="header-img">
+                    <img src="header.jpg">
+            </div>
+            
+        </div>
+        </div>
+    </div>
+ <!--------ABOUT--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="me1.jpg" style=" max-width: 100%;height: auto;" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me </h1>   
+                    <p>  
+                    I’m Alfredo Cuevas, a junior student majoring in Computer Science at the University of Central Florida. I’m passionate about computer networks, coding, and continuously learning new technologies. Outside the classroom, I enjoy running, working out, and volunteering to give back to my community. I’m always looking for opportunities to grow and apply my skills to real-world challenges. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                        <p class="tab-links" onclick="opentab('course')">Courses</p>
+                        <p class="tab-links" onclick="opentab('experience')">Job Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Programing Languages</span>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>#C</li>
+                                    <li>Java</li>
+                                    <li>HTML, CSS, JavaScript</li>
+                                </ul>
+                            </li>
+                         
+                            <li><span>Languages</span>
+                                <ul>
+                                    <li>English (fluent)</li>
+                                    <li>Spanish (fluent)</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                     <div class="tab-contents" id="course">
+                        <ul>
+                            <li><span>University of Central Florida </span>
+                                <ul>
+                                    <li>Computer Science I</li>
+                                    <li>Object Oriented Programing</li>
+                                </ul>
+                            </li>
+                                <li><span>Google Courses (In progress)</span></li>
+                                    <ul>
+                                        <li>Google Cybersecurity</li>
+                                    </ul>
+                        </ul>
+                    </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Texas Roadhouse</span>
+                                <ul>
+                                <li>Server, Trainer       2023-Present</li>
+                                </ul>
+                             <li><span>Samaritan's Purses</span><br>Disaster Relief Volunteer     2019-Seasonal</li>
+                        </ul>
+                    </div>   
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <!-----------------EDUCATION--------------------->
+<div id="Education">
+    <div class="container">
+         <h1 class="sub-title"> Education </h1>  
+         <div class="education-list">
+            <div class="educations">
+                <img src="ucf.png">
+                 <div id="ucf" class="layer" > <i class="fa-solid fa-building-columns"></i>
+                     <h2>University of Central Florida</h2>
+                    <p>Bachelor's Degree in Computer Science 
+                    <br>Award of Excellence (2025)
+                    </p>
+                </div>
+            </div>
+            <div class="educations">
+                <img src="valencia.png">
+                <div class="layer" id="vc"><i class="fa-solid fa-graduation-cap"></i>
+                    <h2>Valencia College</h2>
+                    <p>Associate in Art (2024)  </p>
+                </div>
+            </div>    
+            <div class="educations">
+                <img src="high.png">
+                <div class="layer" id="fpc"><i class="fa-solid fa-graduation-cap"></i>
+                    <h2>High School</h2>
+                    <p>High School Diploma 2021 </p>
+                </div>
+            </div>
+         </div>
+
+    </div>
+</div>
+
+<!--------------------PROJECTS----------------------->
+
+<div id="projects">
+    <div class="container">
+          <h1 class="sub-title"> Projects </h1> 
+            <div class="project-list">
+                <div class="project">
+                    <h2>Project #1</h2>
+                    <P><span>Instrucions</span><br>Learn more</P>
+                    <div class="layer">
+                        <h3>Instructions</h3>
+                        <p1>This is a document with a set of written instructions and accompanied with visuals.</p1>
+                          <p2><br>Got a flat tire?</p2>  
+                          <i class="fa-solid fa-eye" onclick="openModal('project1.txt')" style="cursor: pointer; font-size: 30px; margin: 10px;"></i>  
+                         <a href="project1.docx" download="project1.docx">
+                              <i class="fa-solid fa-cloud-arrow-down"  style="cursor: pointer; font-size: 30px; margin: 10px;"></i>     
+                         </a>
+                    </div>
+                </div>    
+                    <div class="project">
+                         <h2>Project #2</h2>
+                         <P><span>Resume & Cover Letter</span><br>Learn more</P>
+                        <div class="layer">
+                            <h3>Resume & Cover Letter</h3>
+                            <p1>This document is a resume and cover letter for a prospective internship.</p1>
+                            <i class="fa-solid fa-eye" onclick="openModal('project2.txt')" style="cursor: pointer; font-size: 30px; margin: 10px;"></i>  
+                            <a href="project2.docx" download="project2.docx">
+                              <i class="fa-solid fa-cloud-arrow-down"  style="cursor: pointer; font-size: 30px; margin: 10px;"></i>     
+                            </a>
+                        </div>
+                     </div>
+                    <div class="project">
+                         <h2>Project #3</h2>
+                        <P><span>Research Proposal</span><br>Learn more</P>
+                        <div class="layer">
+                         <h3>Proposal</h3>
+                        <p1>The document is an adapted version of a research proposal of the UCF Office of Undergraduate Research's proposal</p1>
+                            <i class="fa-solid fa-eye" onclick="openModal('project3.txt')" style="cursor: pointer; font-size: 30px; margin: 10px;"></i>  
+                            <a href="project3.docx" download="project3.docx">
+                              <i class="fa-solid fa-cloud-arrow-down"  style="cursor: pointer; font-size: 30px; margin: 10px;"></i>     
+                            </a>
+                        </div>
+                    </div>
+            </div>
+            <div id="docModal" class="modal">
+                <div class="modal-content">
+                <button class="close-modal" onclick="closeModal()">X</button>
+                <iframe id="modalIframe" src="" width="100%" height="90%"></iframe>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+ <!---------------CONTACT----------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <div class="social-icons">
+                           <a href="https://www.linkedin.com/in/alfredo-cuevas"><i class="fab fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="resume.docx" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">Thank you!</span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Alfredo. </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+   <script>
+        var tablinks = document.getElementsByClassName("tab-links"); 
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents ){
+               tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> 
+   
+    <script>
+        var sidemenu = document.getElementById("sidemnu");
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }function closemenu(){
+            sidemenu.style.right="-200px";
+            
+        }
+
+    </script>
+   <script>
+        function openModal(filePath) {
+            const modal = document.getElementById('docModal');
+            const iframe = document.getElementById('modalIframe');
+            iframe.src = filePath;
+            modal.style.display = "block";
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('docModal');
+            const iframe = document.getElementById('modalIframe');
+            iframe.src = ""; // Clear iframe
+            modal.style.display = "none";
+        }
+</script>
+
+<script>
+    const targetId = this.getAttribute('data-target');
+
+    //find the target layer and expand it
+    const targetLayer = document.getElementById(targetId);
+    if(targetLayer){
+        targetLayer.classList.add('expanded');
+    }
+</script>
+
+</body>
+</html>
